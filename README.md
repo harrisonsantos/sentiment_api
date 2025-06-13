@@ -97,7 +97,7 @@ sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
    - Conecte-se ao servidor local
    - Clique com botão direito em "Databases" → "Create" → "Database"
    - Nome: `sentiment_db`
-   - Clique em "Save"
+   - Clique em "Save" 
 
    **Opção B - Via linha de comando:**
    ```cmd
@@ -190,7 +190,7 @@ Acesse: `http://localhost:8000/redoc`
 
 ## 🛠 Endpoints da API
 
-### 1. POST /api/v1/reviews
+### 1. POST http://localhost:8000
 Classifica uma avaliação de cliente usando análise de sentimento.
 
 **Request Body:**
@@ -413,9 +413,6 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 Desenvolvido como parte do teste técnico para Desenvolvedor Back-End Python.
 
-## 📞 Suporte
-
-Para dúvidas ou suporte, entre em contato através do email: gente@weon.com.br
 
 
 
